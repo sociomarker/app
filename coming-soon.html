@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>Coming Soon</title>
+	<link rel="stylesheet" type="text/css" href="framework/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="framework/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<!-- Page Pre-loader -->
+<div class="cat-loading">
+	<div class="cat-frame"></div>
+	<h3 class="loading-text">loading ...</h3>
+	<img class="loading-logo" src="assets/img/logo.svg">
+</div>
+
+<!-- coming soon -->
+<div class="bg-img-overlay">
+	<div class="overlay"></div>
+	<img src="assets/img/spalsh.jpg">
+</div>
+<div class="rel zindex5">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="login-logo">
+				<img src="assets/img/logo.svg" class="img-responsive center-block">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<h3 class="text-center text-white">FASTEN YOUR SEATBELTS</h3>
+			<hr>
+		</div>
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="row coming-counter">
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="martop40 text-center">
+				<a href="index.html" class="btn btn-lg btn-default btn-transparent text-white">lets head home</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="coming-soon-footer zindex5">
+	<p class="text-center"><a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+	<p class="text-center"><a href="#">+123456789</a></p>
+</div>
+	<!-- Notification DOMS or backtotop from here -->
+    <div class="notification bottom blue">
+		<div class="content">
+			<button type="button" class="closeit pull-right notification-close"><span aria-hidden="true">×</span></button>
+			<h4>Notification Title</h4>
+			<p>Notification Content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="framework/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="framework/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="framework/owl/dist/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="framework/js/framework.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript">
+		// Time Counter
+		$(function() {
+		    $('.coming-counter').countdown({
+		        date: "July, 2018 15:03:26",
+		        render: function(data) {
+		            $(this.el).html("<div class=\"col-xs-3 text-center\">" + this.leadingZeros(data.days,0) + " <div>days</div></div><div class=\"col-xs-3 text-center\">" + this.leadingZeros(data.hours, 2) + " <div>hrs</div></div><div class=\"col-xs-3 text-center\">" + this.leadingZeros(data.min, 2) + " <div>min</div></div><div class=\"col-xs-3 text-center\">" + this.leadingZeros(data.sec, 2) + " <div>sec</div></div>");
+	          	}
+		    });
+		});
+	</script>
+</body>
+</html>
