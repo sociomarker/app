@@ -377,10 +377,10 @@ a:hover,a:active,a:focus,a:visited{
 
 /* --- Cat Search Bar --- */
 .cat-search-bar .content{
-	margin:20px;
-	padding:5px;
-	height:50px;
-	border-radius:15px;
+	/*margin:20px;*/
+	/*padding:5px;*/
+	/*height:50px;*/
+	/*border-radius:15px;*/
 	position:relative;
 }
 .cat-search-bar{
@@ -1305,4 +1305,29 @@ a:hover,a:active,a:focus,a:visited{
 /* --- components --- */
 .components .btn{
 	margin:5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #555 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #555 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #555 !important;
+}
+
+.ml10{
+	margin-left: 10px !important;
+}
+
+.ml-15{
+	margin-left: -15px !important;
+}
+
+.white{
+	color:white !important;
 }

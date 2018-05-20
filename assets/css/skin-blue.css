@@ -112,7 +112,7 @@ body{
 	background-color:#006699;
 }
 .cat-search-bar .content {
-	background-color:rgba(232, 232, 232, 0.9);
+	/*background-color:rgba(232, 232, 232, 0.9);*/
 }
 .cat-search-bar .form-control{
     border-radius:0px;
