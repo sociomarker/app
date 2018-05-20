@@ -16,7 +16,7 @@
 <div class="cat-loading">
 	<div class="cat-frame"></div>
 	<h3 class="loading-text">loading ...</h3>
-	<img class="loading-logo" src="assets/img/logo.svg">
+	<img class="loading-logo" src="assets/img/spin.gif">
 </div>
 
 <!-- Navbar Header -->
@@ -25,17 +25,17 @@
 		<div class="row">
 			<div class="col-xs-3 text-left"><a class="menu-toggle left" href="#left-menu"> <i class="fa fa-bars"></i></a></div>
 			<div class="col-xs-6 text-center title">India Fastener</div>
-			<div class="col-xs-3 text-right"><a href="profile.html"><i class="fa fa-briefcase"></i></a></div>
+			<div class="col-xs-3 text-right"><a href="profile.html"><i class="fa fa-user"></i></a></div>
 		</div>
 	</div>
 	<div class="menu">
 		<div class="row">
 			<div class="horizontal-scroll owl-carousel">
+				<a href="#" class="menu-deco item">Search</a>
 				<a data-open="#enquirepop" class="menu-deco item openit">Enquire</a>
-				<a href="search.html" class="menu-deco item">Search</a>
-				<a href="chat.html" class="menu-deco item">Chat</a>
+				<a href="#" class="menu-deco item">Chat</a>
+				<a href="#" class="menu-deco item">Stds</a>
 				<a href="#" class="menu-deco item">Weight Count</a>
-				<a href="#" class="menu-deco item">Std & Measurement</a>
 			</div>
 		</div>
 	</div>
@@ -102,10 +102,7 @@
 				</a>
 				<div class="collapse" id="pages">
 					<ul>
-						<li>
-
-							<a href="search.html"><span class="ico"><i class="fa fa-search" aria-hidden="true"></i></span>Search</a>
-						</li>
+						<li><a href="search.html"><span class="ico"><i class="fa fa-search" aria-hidden="true"></i></span>Search</a></li>
 						<li><a href="login.html"><span class="ico"><i class="fa fa-sign-in" aria-hidden="true"></i></span>Login</a></li>
 						<li><a href="signup.html"><span class="ico"><i class="fa fa-user-plus" aria-hidden="true"></i></span>Signup</a></li>
 						<li><a href="reset-password.html"><span class="ico"><i class="fa fa-sign-in" aria-hidden="true"></i></span>Reset password</a></li>
@@ -133,19 +130,27 @@
 </div>
 <div class="drawer overlay"></div>
 
+<!-- Cat search bar -->
+<div class="cat-search-bar fixed parallax-banner form">
+	<img class="overlay-img" src="http://via.placeholder.com/800x220">
+	<div class="content">
+		<div class="form-group img">
+			<img class="search-logo" src="assets/img/location.svg">
+			<input type="text" id="search" class="form-control" placeholder="location :">
+		</div>
+	</div>
+</div>
+
 <!-- Main Categories -->
 <div class="parallax-scroller">
 	<div class="container-fluid">
 		<div class="row main-categories">
-			
-
-
 		<ul class="cate dark">
 			<li>
 				<a href="subcategory.html" class="deco">
 					<img class="img lazy" data-original="http://via.placeholder.com/600x400">
 					<div class="content">
-						<p class="title">Recently Viewed</p>
+						<p class="title">Daily Needs</p>
 					</div>
 				</a>
 			</li>
@@ -153,7 +158,7 @@
 				<a href="subcategory.html" class="deco">
 					<img class="img lazy" data-original="http://via.placeholder.com/600x400">
 					<div class="content">
-						<p class="title">Featured Fasteners</p>
+						<p class="title">Banquets</p>
 					</div>
 				</a>
 			</li>
@@ -540,7 +545,7 @@
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</div>
 	</div>
-
+	
 	<script type="text/javascript" src="framework/js/jquery-2.1.0.min.js"></script>
 	<script type="text/javascript" src="framework/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="framework/owl/dist/owl.carousel.min.js"></script>

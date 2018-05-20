@@ -40,11 +40,11 @@ body{
 	background-color:#fff;
 }
 .bgtheme{
-	background-color:#112D4E;
+	background-color:#006699;
 	color:#fff;
 }
 .cat-loading{
-	background-color:#112D4E;
+	background-color:#ffffff;
 	color:#fff;
 }
 .rating{
@@ -54,19 +54,19 @@ body{
 	background-color:#fff;
 }
 .subcate .list-group-item .list-group-item-heading{
-	color:#112D4E;
+	color:#006699;
 }
 .subcategory{
-	background-color:#112D4E;
+	background-color:#006699;
 	color:#DDD;
 }
 .listing .title{
-	color:#112D4E;
+	color:#006699;
 }
 
 /* ---- Header ---- */
 #cat-header{
-	background-color:#112D4E;
+	background-color:#006699;
 	color:#eee;
 }
 #cat-header hr{
@@ -109,7 +109,7 @@ body{
 
 /* ---- Cat search bar ---- */
 .cat-search-bar{
-	background-color:#112D4E;
+	background-color:#006699;
 }
 .cat-search-bar .content {
 	background-color:rgba(232, 232, 232, 0.9);
@@ -125,10 +125,10 @@ body{
 	background-color:rgba(17, 45, 78, 0.6);
 }
 .cate.dark .layer.opaque{
-	background-color:#112D4E;
+	background-color:#006699;
 }
 .cate.light .layer.opaque{
-	background-color:#112D4E;
+	background-color:#006699;
 }
 .cate.dark p{
 	color:#555;
@@ -171,10 +171,10 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 );
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
-	background-color:#112D4E;
+	background-color:#006699;
 }
 .owl-theme .owl-dots .owl-dot span{
-	border:2px solid #112D4E;
+	border:2px solid #006699;
 	background-color:#eee;
 }
 
@@ -194,7 +194,7 @@ body{
 
 /* ---- section heading ---- */
 .section-heading{
-	background-color:#112D4E;
+	background-color:#006699;
 	color:#eee;
 }
 
@@ -265,7 +265,7 @@ body{
 
 .form .form-control{
 	background-color:transparent;
-	color:#112D4E;
+	color:#006699;
 	border-radius:0px;
 }
 .login-form.form .form-control, .signup-form.form .form-control, .contact-form.form .form-control{
@@ -344,14 +344,14 @@ body{
 	color:#333;
 }
 .atoz-categories .footer{
-	background-color:#112D4E;
+	background-color:#006699;
 }
 .list-group span.ico{
-    color: #112d4e;
+    color: #006699;
 }
 
 #search-box{
-	background-color:#112D4E;
+	background-color:#006699;
 	color:#fff;
 }
 
@@ -386,7 +386,7 @@ body{
     color: #3F72AF;
 }
 .bg-img-overlay .overlay{
-	background-color:rgba(17, 45, 78, 0.7);
+	background-color:rgba(0, 0, 0, 0.8);
 }
 .form-control{
 	border:0px;
