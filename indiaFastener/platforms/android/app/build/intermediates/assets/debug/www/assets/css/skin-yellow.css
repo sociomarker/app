@@ -1,0 +1,377 @@
+/*
+==============================================================
+Template Details
+==============================================================
+Template Title  	:   Classified
+Author Name		    :   Kathan Shah
+Author Link			:   https://themeforest.net/user/kathan-shah
+Author facebook 	:   https://www.facebook.com/kathan.n.shah
+
+==============================================================
+Table of Content for CSS
+==============================================================
+01 General classes
+02 Header
+03 Drawer menu
+04 Cat search bar
+05 Main Categories
+06 icon categories
+07 icon categories heading
+08 img slider
+09 listing profile
+10 section heading
+11 enquirepop
+12 back to top
+13 form elements
+14 ajax load
+15 a to z categories
+16 Search Page
+==============================================================
+*/
+
+/* ---- General classes ---- */
+body{
+	background-color:#F9F7F7;
+}
+.bodyoverlay{
+	background-color:rgba(0,0,0,0.4);
+}
+.bgwhite{
+	background-color:#fff;
+}
+.bgtheme{
+	background-color:#FECD51;
+	color:#333;
+}
+.cat-loading{
+	background-color:#FECD51;
+	color:#333;
+}
+.rating{
+    color: #9F1E49;
+}
+.parallax-scroller{
+	background-color:#fff;
+}
+
+/* ---- Header ---- */
+#cat-header{
+	background-color:#FECD51;
+	color:#333;
+}
+#cat-header hr{
+	border-color: #a2120e;
+}
+#cat-header .menu .menu-deco{
+	color:#333;
+	border:1px solid #9F1E49;
+}
+#cat-header a{
+	color:#333;
+}
+#cat-header .menu .menu-deco.active{
+	color:#333;
+	border:1px solid #9F1E49;
+}
+
+/* --- drawer menu --- */
+.drawer-menu.left{
+	background-color:#fff;
+}
+.drawer.overlay{
+	background-color:rgba(0,0,0,0.6);
+}
+
+/* ---- Cat search bar ---- */
+.cat-search-bar .content {
+	background-color:rgba(232, 232, 232, 0.8);
+}
+.cat-search-bar .form-control{
+    border-radius:0px;
+    border:0px;
+    color:#333 !important;
+}
+
+/* ---- Main Categories ---- */
+.cate.dark .layer{
+	background-color:rgba(32, 23, 0, 0.65);
+}
+.cate.dark .layer.opaque{
+	background-color:#FECD51;
+}
+.cate.light .layer.opaque{
+	background-color:#FECD51;
+}
+.cate.dark p{
+	color:#333;
+}
+.cate.dark li .content .sub-title{
+	color:#ddd;
+}
+.cate.light .layer{
+	background-color:rgba(255,255,255,0.7);
+}
+.cate.light p{
+	color:#333;
+}
+
+/* --- icon categories --- */
+.icon-cate li .deco{
+	background-color:#F9F7F7;
+	border:1px solid rgba(254, 205, 81, 0.14);
+}
+.icon-cate li .deco .title{
+	color:#333;
+}
+
+/* --- drawer menu --- */
+.drawer-menu ul li a{
+	color:#333;
+}
+.drawer-menu ul li:active > a{
+	background-color:#eee;
+}
+.drawer-menu li ul{
+	background-color:#eee;
+}
+.drawer-menu .user-info .info{
+	color:#fff;
+}
+.drawer-menu .drawer-banner .overlay{
+	background-color:rgba(32, 23, 0, 0.65);
+}
+
+/* ---- img section heading ---- */
+.img-section-heading .overlay{
+	background-color:rgba(32, 23, 0, 0.65);
+}
+.img-section-heading{
+	color:#fff;
+}
+
+/* ---- img slider ---- */
+.img-slider .item .title{
+	color:#eee;
+}
+.img-slider .item .bottom-overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 );
+}
+
+/* ---- listing profile ---- */
+#listing-profile{
+	background-color:#fff;
+}
+#listing-profile .deco i{
+    color:#9F1E49;
+}
+#listing-profile .deco p{
+	color:#555;
+}
+#listing-profile .content .subtitle{
+	color:#777;
+}
+
+/* ---- section heading ---- */
+.section-heading{
+	background-color:#FECD51;
+	color:#eee;
+}
+
+/* ---- enquirepop ---- */
+.enquirepop .content{
+	background-color:#fff;
+}
+.enquirepop .overlay{
+	background-color:rgba(0,0,0,0.6);
+}
+.enquirepop .header{
+	background-color:#3F72AF;
+	color:#fff;
+}
+.content.form .header .header-overlay{
+	background-color:rgba(32, 23, 0, 0.65);
+}
+
+/* ---- back to top ---- */
+#back-to-top{
+	background-color:#fecd51;
+	box-shadow:1px 1px 5px rgba(254, 205, 81, 0.45);
+}
+
+/* ---- extra popup ---- */
+.extra-popup{
+	background-color:#fff;
+}
+.extra-popup ul li a{
+	color:#737373;
+	font-weight:bold;
+}
+
+
+/* ---- form elements ----*/
+.btn-facebook{
+	background-color:#3b5998;
+	color:#fff;
+	font-weight:bold;
+	border:0px;
+	font-family:sans-serif;
+}
+.btn-google{
+	background-color:#fff;
+	color:#ea4335;
+	font-weight:bold;
+	border:0px;
+	font-family:sans-serif;
+}
+
+.btn-facebook:active,.btn-facebook:focus,.btn-facebook:hover{
+	background-color:#3b5998 !important;
+	color:#fff !important;
+}
+
+.btn-google:active,.btn-google:focus,.btn-google:hover{
+	background-color:#fff !important;
+	color:#ea4335 !important;
+}
+
+.btn-transparent{
+	background-color:transparent;
+	border:1px solid #fff;
+}
+.btn-transparent:active,.btn-transparent:focus,.btn-transparent:hover{
+	color:#fff;
+}
+
+.form .form-control{
+	background-color:transparent;
+	color:#333;
+	border-radius:0px;
+}
+.form-control{
+	border:0px;
+	border-bottom:1px solid #333;
+}
+.login-form.form .form-control, .signup-form.form .form-control, .contact-form.form .form-control{
+	color:#fff;
+
+}
+.login-form.form .ico.fa, .signup-form.form .ico.fa, .contact-form.form .ico.fa{
+	color:#eee;
+}
+.form ::-webkit-input-placeholder { /* Chrome */
+  color:#333;
+}
+.form :-ms-input-placeholder { /* IE 10+ */
+  color:#333;
+}
+.form ::-moz-placeholder { /* Firefox 19+ */
+  color:#333;
+  opacity: 1;
+}
+.form :-moz-placeholder { /* Firefox 4 - 18 */
+  color:#333;
+  opacity: 1;
+}
+
+.login-form.form ::-webkit-input-placeholder, 
+	.signup-form.form ::-webkit-input-placeholder,
+		.contact-form.form ::-webkit-input-placeholder { /* Chrome */
+  color:#ddd;
+}
+.login-form.form :-ms-input-placeholder, 
+	.signup-form.form :-ms-input-placeholder,
+		.contact-form.form :-ms-input-placeholder { /* IE 10+ */
+  color:#ddd;
+}
+.login-form.form ::-moz-placeholder, 
+	.signup-form.form ::-moz-placeholder,
+		.contact-form.form ::-moz-placeholder { /* Firefox 19+ */
+  color:#ddd;
+  opacity: 1;
+}
+.login-form.form :-moz-placeholder, 
+	.signup-form.form :-moz-placeholder,
+		.contact-form.form :-moz-placeholder { /* Firefox 4 - 18 */
+  color:#ddd;
+  opacity: 1;
+}
+.login-hr{
+	border-color:#0b0e47;
+}
+.form a{
+	color:#fff;
+}
+.copyright{
+	color:#eee;
+}
+
+/* ---- ajax load ---- */
+.ajax-load{
+	background-color:#fff;
+}
+
+.inner-load{
+	background-color:rgba(255,255,255,0.80);
+}
+
+/* ---- topics ---- */
+.atoz-categories{
+	background-color:#F9F7F7;
+}
+.atoz-categories .list-group{
+	background-color:#fff;
+}
+.atoz-categories .list-group a{
+	color:#333;
+}
+.atoz-categories .footer a{
+	color:#fff;
+}
+.atoz-categories .footer{
+	background-color:#FECD51;
+}
+.list-group span.ico{
+    color: #9F1E49;
+}
+
+#search-box{
+	background-color:#FECD51;
+	color:#fff;
+}
+
+/* ---- Search Page ---- */
+#search-box .form-control{
+	color:#333;
+}
+#search-box ::-webkit-input-placeholder { /* Chrome */
+  color:#333;
+}
+#search-box :-ms-input-placeholder { /* IE 10+ */
+  color:#333;
+}
+#search-box ::-moz-placeholder { /* Firefox 19+ */
+  color:#333;
+  opacity: 1;
+}
+#search-box :-moz-placeholder { /* Firefox 4 - 18 */
+  color:#333;
+  opacity: 1;
+}
+#search-feed .ajax-load{
+	background-color:rgba(255,255,255,0.8);
+}
+.search-feed{
+	background-color:#fff;
+}
+.search-feed a{
+	color:#666;
+}
+.drawer-menu ul li span.ico{
+    color: #9F1E49;
+}
+.bg-img-overlay .overlay{
+	background-color:rgba(32, 23, 0, 0.7);
+}

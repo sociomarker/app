@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./css/loading.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/loading-btn.css"/>
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="framework/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/maxframes.css"/>
+</head>
+<body>
+
+<!-- Page Pre-loader -->
+<div class="cat-loading">
+    <div class="cat-frame"></div>
+    <h3 class="loading-text">loading ...</h3>
+    <img class="loading-logo" src="assets/img/logo.svg">
+</div>
+
+<!-- Login Page -->
+<div class="bg-img-overlay">
+    <div class="overlay"></div>
+    <img src="assets/img/spalsh.jpg">
+</div>
+<div class="rel zindex5">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="login-logo">
+                <img src="assets/img/logo.svg" class="img-responsive center-block">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+            <div data-page="din933" class="page navbar-fixed">
+            <div class="navbar ">
+                <div class="navbar-inner">
+                    <div class="left sliding"><a href="" onclick="history.back()" class="link"><i class="icon icon-back"></i></a></div>
+                    <div class="center text-white">Din 933</div>
+                    <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+                </div>
+            </div>
+            <div class="page-content hide-bars-on-scroll">
+                <div class="content-block error">
+
+                    <div style="position: relative;" id="imageContainer" class="col-auto">
+                        <div style="position: relative;" id="kd"></div>
+                        <img src="img/std/933.jpg" class="col-90" style="max-width: 290px">
+                        <br><br><br>
+                        <b class="text-white">*All measurements in millimeters (mm)* </b>
+                        <br><br>
+
+                        <select id="mySelect933" class="no-fastclick" style='background-color: #e3e3e3; color: black;'>
+            <option value="0" selected="selected" class="text-white">Select Value</option>
+            <option value="M3">M3</option>
+            <option value="M4">M4</option>
+            <option value="M5">M5</option>
+            <option value="M6">M6</option>
+            <option value="M8">M8</option>
+            <option value="M10">M10</option>
+            <option value="M12">M12</option>
+            <option value="M14">M14</option>
+            <option value="M16">M16</option>
+            <option value="M18">M18</option>
+            <option value="M20">M20</option>
+            <option value="M22">M22</option>
+            <option value="M24">M24</option>
+            <option value="M27">M27</option>
+            <option value="M30">M30</option>
+            <option value="M33">M33</option>
+            <option value="M36">M36</option>
+            <option value="M42">M42</option>
+            <option value="M48">M48</option>
+          </select>
+                        <hr>
+
+                        <table border="1">
+                            <tr>
+                                <td align="center" style="background-color:#FF951C" width="16%"><strong><font color="#e3e3e3"  size="2"><b>D</b></font></strong></td>
+                                <td align="center" style="background-color:#FF951C" width="16%"><strong><font color="#e3e3e3"  size="2"><b>K</b></font></strong></td>
+                                <td align="center" style="background-color:#FF951C" width="16%"><strong><font color="#e3e3e3"  size="2"><b>E</b></font></strong></td>
+                                <td align="center" style="background-color:#FF951C" width="16%"><strong><font color="#e3e3e3"  size="2"><b>S</b></font></strong></td>
+                            </tr>
+                            <tr class="hideShowTr" id="row17">
+
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+                <div class="content-block">
+
+                </div>
+            </div>
+        </div>     
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <!-- Notification DOMS or backtotop from here -->
+    <div class="notification bottom blue">
+        <div class="content">
+            <button type="button" class="closeit pull-right notification-close"><span aria-hidden="true">×</span></button>
+            <h4>Notification Title</h4>
+            <p>Notification Content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="framework/js/jquery-2.1.0.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="framework/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="framework/owl/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="framework/js/framework.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript">
+        $('#mySelect933').on('change', function(e) {
+
+            //console.log("change works");
+            var value = document.getElementById("mySelect933").value;
+            //myApp.alert(value);
+            //console.log(value);
+            if (value == 'M3') {
+                var a = 'M3';
+                var b = '2';
+                var c = '6.01';
+                var d = '5.5';
+
+            } else if (value == 'M4') {
+                var a = 'M4';
+                var b = '2.8';
+                var c = '7.66';
+                var d = '7';
+
+            } else if (value == 'M5') {
+                var a = 'M5';
+                var b = '3.5';
+                var c = '8.79';
+                var d = '8';
+
+            } else if (value == 'M6') {
+                var a = 'M6';
+                var b = '4';
+                var c = '11.05';
+                var d = '10';
+
+            } else if (value == 'M8') {
+                var a = 'M8';
+                var b = '5.3';
+                var c = '14.38';
+                var d = '13';
+
+            } else if (value == 'M10') {
+                var a = 'M10';
+                var b = '6.4';
+                var c = '18.9';
+                var d = '17';
+
+            } else if (value == 'M12') {
+                var a = 'M12';
+                var b = '7.5';
+                var c = '21.1';
+                var d = '19';
+
+            } else if (value == 'M14') {
+                var a = 'M14';
+                var b = '8.8';
+                var c = '24.49';
+                var d = '22';
+
+            } else if (value == 'M16') {
+                var a = 'M16';
+                var b = '10';
+                var c = '26.75';
+                var d = '24';
+
+            } else if (value == 'M18') {
+                var a = 'M18';
+                var b = '11.5';
+                var c = '30.14';
+                var d = '27';
+
+            } else if (value == 'M20') {
+                var a = 'M20';
+                var b = '12.5';
+                var c = '33.53';
+                var d = '30';
+
+            } else if (value == 'M22') {
+                var a = 'M22';
+                var b = '14';
+                var c = '35.72';
+                var d = '32';
+
+            } else if (value == 'M24') {
+                var a = 'M24';
+                var b = '15';
+                var c = '39.98';
+                var d = '36';
+
+            } else if (value == 'M27') {
+                var a = 'M27';
+                var b = '17';
+                var c = '45.2';
+                var d = '41';
+
+            } else if (value == 'M30') {
+                var a = 'M30';
+                var b = '18.7';
+                var c = '50.85';
+                var d = '46';
+
+            } else if (value == 'M33') {
+                var a = 'M33';
+                var b = '21';
+                var c = '55.37';
+                var d = '50';
+
+            } else if (value == 'M36') {
+                var a = 'M36';
+                var b = '22.5';
+                var c = '60.79';
+                var d = '55';
+
+            } else if (value == 'M42') {
+                var a = 'M42';
+                var b = '26';
+                var c = '71.3';
+                var d = '65';
+
+            } else if (value == 'M48') {
+                var a = 'M48';
+                var b = '30';
+                var c = '82.6';
+                var d = '75';
+
+            }
+            document.getElementById("row17").innerHTML = '<td align="center" width="16%"><b><font color="#fff" face="Verdana" size="2">' + a + '</font></b></td>' +
+                '<td align="center" width="16%"><b><font color="#fff" face="Verdana" size="2">' + b + '</font></b></td>' +
+                '<td align="center" width="16%"><b><font color="#fff" face="Verdana" size="2">' + c + '</font></b></td>' +
+                '<td align="center" width="16%"><b><font color="#fff" face="Verdana" size="2">' + d + '</font></b></td>';
+
+            var letter, letter1, letter2, letter3;
+            //d
+            var letter = {
+                    label: a,
+                    top: 30,
+                    left: 160
+                }
+                //s
+            var letter1 = {
+                    label: b,
+                    top: 83,
+                    left: 20
+                }
+                //e
+            var letter2 = {
+                    label: c,
+                    top: 35,
+                    left: 258
+                }
+                //m
+            var letter3 = {
+                label: d,
+                top: 80,
+                left: 220
+            }
+
+            var top = letter.top + 'px';
+            var left = letter.left + 'px';
+            var label = letter.label;
+
+            var top1 = letter1.top + 'px';
+            var left1 = letter1.left + 'px';
+            var label1 = letter1.label;
+
+            var top2 = letter2.top + 'px';
+            var left2 = letter2.left + 'px';
+            var label2 = letter2.label;
+
+            var top3 = letter3.top + 'px';
+            var left3 = letter3.left + 'px';
+            var label3 = letter3.label;
+
+
+            document.getElementById("kd").innerHTML = '<span class="number" style="top:' + top + ';left:' + left + '">' + label + '</span><span class="number" style="top:' + top1 + ';left:' + left1 + '">' + label1 + '</span><span class="number" style="top:' + top2 + ';left:' + left2 + '">' + label2 + '</span><span class="number" style="top:' + top3 + ';left:' + left3 + '">' + label3 + '</span>';
+
+        });
+    </script>
+    
+</body>
+</html>
